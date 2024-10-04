@@ -1,6 +1,6 @@
 {
   "name": "@xirenec/ngx-i24-weekday-picker-lib",
-  "version": "17.0.1",
+  "version": "18.0.0",
   "description": "A lightweight plugin to a pick weekday.",
   "author": "YASEEN ALREFAEE <yaseen@icode24.com> (https://icode24.com/)",
   "homepage": "https://github.com/AlexeyOplachko/ngx-i24-weekday-picker-lib",
