@@ -1,16 +1,12 @@
 {
-  "name": "ngx-i24-weekday-picker-lib",
-  "version": "16.0.0",
+  "name": "@xirenec/ngx-i24-weekday-picker-lib",
+  "version": "16.1.0",
   "description": "A lightweight plugin to a pick weekday.",
-  "author": {
-    "name": "YASEEN ALREFAEE",
-    "email": "yaseen@icode24.com",
-    "url": "https://icode24.com/"
-  },
+  "author": "YASEEN ALREFAEE <yaseen@icode24.com> (https://icode24.com/)",
   "homepage": "https://github.com/AlexeyOplachko/ngx-i24-weekday-picker-lib",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlexeyOplachko/ngx-i24-weekday-picker-lib"
+    "url": "git+https://github.com/AlexeyOplachko/ngx-i24-weekday-picker-lib.git"
   },
   "scripts": {
     "ng": "ng",
@@ -59,5 +55,9 @@
     "weekday picker",
     "icode24",
     "i24"
-  ]
+  ],
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/AlexeyOplachko/ngx-i24-weekday-picker-lib/issues"
+  }
 }
