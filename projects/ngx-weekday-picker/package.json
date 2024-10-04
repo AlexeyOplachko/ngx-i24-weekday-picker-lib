@@ -1,16 +1,12 @@
 {
-  "name": "ngx-weekday-picker",
+  "name": "@xirenec/ngx-weekday-picker",
   "version": "17.0.0",
   "description": "A lightweight plugin to a pick weekday.",
-  "author": {
-    "name": "YASEEN ALREFAEE",
-    "email": "yaseen@icode24.com",
-    "url": "https://icode24.com/"
-  },
+  "author": "YASEEN ALREFAEE <yaseen@icode24.com> (https://icode24.com/)",
   "homepage": "https://github.com/yasref/ngx-i24-weekday-picker-lib",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yasref/ngx-i24-weekday-picker-lib"
+    "url": "git+https://github.com/yasref/ngx-i24-weekday-picker-lib.git"
   },
   "peerDependencies": {
     "@angular/common": "^17.0.0",
@@ -31,5 +27,12 @@
     "weekday picker",
     "icode24",
     "i24"
-  ]
+  ],
+  "main": "karma.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/yasref/ngx-i24-weekday-picker-lib/issues"
+  }
 }
