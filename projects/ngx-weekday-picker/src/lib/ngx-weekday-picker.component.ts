@@ -2,9 +2,10 @@ import { WeekDay } from '@angular/common';
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
-  selector: 'ngx-weekday-picker',
-  templateUrl: 'ngx-weekday-picker.component.html',
-  styleUrls: ['ngx-weekday-picker.component.scss']
+    selector: 'ngx-weekday-picker',
+    templateUrl: 'ngx-weekday-picker.component.html',
+    styleUrls: ['ngx-weekday-picker.component.scss'],
+    standalone: false
 })
 export class NgxWeekdayPickerComponent implements OnInit {
   @Input() weekStart = WeekDay.Monday;
