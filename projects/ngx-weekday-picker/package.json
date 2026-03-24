@@ -1,6 +1,6 @@
 {
   "name": "@xirenec/ngx-weekday-picker",
-"version": "20.0.0",
+"version": "21.0.0",
   "description": "A lightweight plugin to a pick weekday.",
   "author": "YASEEN ALREFAEE <yaseen@icode24.com> (https://icode24.com/)",
   "homepage": "https://github.com/yasref/ngx-i24-weekday-picker-lib",
@@ -9,8 +9,8 @@
     "url": "git+https://github.com/yasref/ngx-i24-weekday-picker-lib.git"
   },
   "peerDependencies": {
-    "@angular/common": "^20.3.6",
-    "@angular/core": "^20.3.6"
+    "@angular/common": "^21.2.5",
+    "@angular/core": "^21.2.5"
   },
   "dependencies": {
     "tslib": "^2.3.0"

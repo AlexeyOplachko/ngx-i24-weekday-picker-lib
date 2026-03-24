@@ -14,7 +14,9 @@
       '--inactiveColor':inactiveColor,
       '--inactiveBgColor':inactiveBgColor
     }">
-  <button *ngFor="let d of days"
-          (click)="dayClicked(d)"
-          [ngClass]=" {'active':d.isSelected,'disabled':d.isDisabled}">{{d.name}}</button>
+  @for (d of days; track d) {
+    <button
+      (click)="dayClicked(d)"
+    [ngClass]=" {'active':d.isSelected,'disabled':d.isDisabled}">{{d.name}}</button>
+  }
 </div>
